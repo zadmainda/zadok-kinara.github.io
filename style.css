@@ -1,0 +1,107 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(nature.jpg);
+	background-color: #EE0CE7
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 420 px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, .5);
+	padding: 25px 30px 20px;
+}
+.user
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+
+.loginBox p
+{
+	margin: 0;
+	padding: 0; font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px; 
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40 px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder;
+{
+	color: rgb(255, 255, 255, .5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #E4E118;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    font-size: 20px;
+    overflow: hidden;
+    border: 0px solid #e7e7e7;
+    background-color: transparent;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color:#E4E110;
+}
+
+
