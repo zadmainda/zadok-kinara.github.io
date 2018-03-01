@@ -13,7 +13,7 @@ body
 	top: 50%;
 	left: 50%;
 	width: 350px;
-	height: 420 px;
+	height: 400 px;
 	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	background: rgba(0, 0, 0, .5);
